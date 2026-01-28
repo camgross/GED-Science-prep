@@ -1,0 +1,82 @@
+site_name: 'GED Science Prep'
+site_description: 'Comprehensive GED Science preparation materials covering all 200 assessment targets.'
+site_author: 'Cam Gross'
+repo_name: 'GitHub Repo'
+site_url: 'https://camgross.github.io/GED-Science-prep/'
+repo_url: 'https://github.com/camgross/GED-Science-prep'
+edit_uri: 'blob/master/docs'
+
+nav:
+  - Home: index.md
+  - Course Description: learning-graph/course-description.md
+  - Getting Started: getting-started.md
+
+  - Chapters:
+    - Overview: chapters/index.md
+    - GED Science - Chapter 1 - Scientific Reasoning Foundations: chapters/01-scientific-reasoning-foundations/index.md
+    - GED Science - Chapter 2 - Comprehending Scientific Materials: chapters/02-comprehending-scientific-materials/index.md
+    - GED Science - Chapter 3 - Designing and Conducting Scientific Investigations: chapters/03-designing-and-conducting-scientific-investigations/index.md
+    - GED Science - Chapter 4 - Reasoning from Data and Evidence: chapters/04-reasoning-from-data-and-evidence/index.md
+    - GED Science - Chapter 5 - Statistical Methods and Sampling: chapters/05-statistical-methods-and-sampling/index.md
+    - GED Science - Chapter 6 - Descriptive Statistics and Probability: chapters/06-descriptive-statistics-and-probability/index.md
+    - GED Science - Chapter 7 - Evaluating Scientific Claims and Theories: chapters/07-evaluating-scientific-claims-and-theories/index.md
+    - GED Science - Chapter 8 - Scientific Models and Theories: chapters/08-scientific-models-and-theories/index.md
+    - GED Science - Chapter 9 - Expressing and Communicating Scientific Information: chapters/09-expressing-and-communicating-scientific-information/index.md
+    - "GED Science - Chapter 10 - Life Science: Human Body and Health": chapters/10-life-science-human-body-and-health/index.md
+    - "GED Science - Chapter 11 - Life Science: Energy Flow and Cellular Organization": chapters/11-life-science-energy-flow-and-cellular-organization/index.md
+    - "GED Science - Chapter 12 - Life Science: Genetics, Heredity, and Evolution": chapters/12-life-science-genetics-heredity-and-evolution/index.md
+
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+    - Course Description: learning-graph/course-description.md
+    - Concept Enumeration: learning-graph/list-concepts.md
+    - Graph Quality Analysis: learning-graph/quality-metrics.md
+    - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+
+  - MicroSims:
+    - GED Science Assessment Framework: sims/ged-science-assessment-framework/index.md
+    - Scientific Reasoning Process Flow: sims/scientific-reasoning-process-flow/index.md
+    - Scientific Method Cycle: sims/scientific-method-cycle/index.md
+    - Scientific Data Visualization Types: sims/scientific-data-visualization-types/index.md
+    - Quantitative vs Qualitative Data Collection: sims/quantitative-qualitative-data-collection/index.md
+    - Scientific Communication Process: sims/scientific-communication-process/index.md
+
+theme:
+  name: material
+  palette:
+    primary: 'blue'
+    accent: 'orange'
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - navigation.footer
+    - content.action.edit
+
+plugins:
+  - search
+  - glightbox
+
+markdown_extensions:
+  - md_in_html
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+
+extra_css:
+   - css/extra.css
+
+extra_javascript: 
+   - js/extra.js
+
+copyright: Copyright &copy; 2026 Cam Gross. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+
+extra:
+  generator: false

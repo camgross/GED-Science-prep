@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Scientific Reasoning,,FOUND
+2,Assessment Targets,1,FOUND
+3,Career and College Readiness Standards,1,FOUND
+4,Science Practices,1|2,FOUND
+5,Content Topics,1|2,FOUND
+6,Depth of Knowledge (DOK),1|4,FOUND
+7,Test Item Alignment,4|5|6,FOUND
+8,Scientific Method,1,FOUND
+9,Evidence-Based Reasoning,1|8,FOUND
+10,Data Interpretation,1|9,FOUND
+11,Scientific Literacy,1|8,FOUND
+12,Textual Scientific Presentations,11,COMP
+13,Non-Textual Scientific Presentations,11,COMP
+14,Visual Data Representation,10|13,COMP
+15,Quantitative Reasoning,1|10,FOUND
+16,Qualitative Reasoning,1|10,FOUND
+17,Scientific Inquiry,8|9,FOUND
+18,Experimental Design,8|17,DESIGN
+19,Observational Studies,8|17,DESIGN
+20,Scientific Communication,11,FOUND
+21,Reading Scientific Text,12,COMP
+22,Central Ideas in Science,21,COMP
+23,Summaries of Scientific Findings,21|22,COMP
+24,Restatements of Research,21|23,COMP
+25,Scientific Comparisons,21,COMP
+26,Scientific Processes,8|21,COMP
+27,Scientific Theories Overview,21,COMP
+28,Scientific Trends,21|27,COMP
+29,Academic Vocabulary in Science,21,COMP
+30,Scientific Symbols,29,COMP
+31,Scientific Terms and Phrases,29,COMP
+32,Context Clues in Science,21|31,COMP
+33,Graphs and Charts,14,COMP
+34,Tables and Diagrams,14,COMP
+35,Data Visualization,14|33|34,COMP
+36,Hypothesis Formation,17,DESIGN
+37,Hypothesis Refinement,36,DESIGN
+38,Independent Variables,18|36,DESIGN
+39,Dependent Variables,18|36,DESIGN
+40,Controlled Variables,18|38|39,DESIGN
+41,Sources of Experimental Error,18,DESIGN
+42,Systematic Error,41,DESIGN
+43,Random Error,41,DESIGN
+44,Error Reduction Strategies,41|42|43,DESIGN
+45,Experimental Controls,18|40,DESIGN
+46,Sample Size,18|19,DESIGN
+47,Replication in Experiments,18|46,DESIGN
+48,Experimental Procedures,18,DESIGN
+49,Scientific Investigation Steps,17|48,DESIGN
+50,Measurement Tools,18|48,DESIGN
+51,Units of Measurement,50,DESIGN
+52,Precision and Accuracy,50|51,DESIGN
+53,Data Collection Methods,18|48,DESIGN
+54,Experimental Design Strengths,18|48,DESIGN
+55,Experimental Design Weaknesses,18|48,DESIGN
+56,Comparing Experimental Designs,54|55,DESIGN
+57,Observational Study Design,19,DESIGN
+58,Cause and Effect Relationships,18|38|39,DESIGN
+59,Correlation vs Causation,58,DESIGN
+60,Confounding Variables,40|59,DESIGN
+61,Evidence-Based Conclusions,9|10,REASON
+62,Citing Textual Evidence,21|61,REASON
+63,Supporting Findings with Data,10|61,REASON
+64,Numerical Data Analysis,15|33,REASON
+65,Data-Driven Reasoning,10|64,REASON
+66,Logical Conclusions,61|65,REASON
+67,Scientific Predictions,61|66,REASON
+68,Trend Analysis,28|33,REASON
+69,Trend Extrapolation,67|68,REASON
+70,Variable Relationships,38|39,REASON
+71,Direct Relationships,70,REASON
+72,Inverse Relationships,70,REASON
+73,Sampling Techniques,19|46,STATS
+74,Random Sampling,73,STATS
+75,Systematic Sampling,73,STATS
+76,Representative Samples,73|74|75,STATS
+77,Sample Bias,73|76,STATS
+78,Population vs Sample,73|76,STATS
+79,Statistical Inference,78,STATS
+80,Sampling Strategies,73|76|79,STATS
+81,Evaluating Scientific Claims,61|66,EVAL
+82,Evidence Supporting Conclusions,61|81,EVAL
+83,Evidence Challenging Conclusions,61|81,EVAL
+84,Theory Evaluation,27|81,EVAL
+85,Hypothesis Testing,36|81,EVAL
+86,Scientific Models,27,THEORY
+87,Model Validation,86|81,EVAL
+88,Conflicting Evidence,82|83,EVAL
+89,Contradictory Results,88,EVAL
+90,Data Consistency,64|88,EVAL
+91,Reproducibility,47|90,EVAL
+92,Peer Review Concepts,81|91,EVAL
+93,Scientific Consensus,84|92,EVAL
+94,Theory Modification,84|93,EVAL
+95,Paradigm Shifts,94,EVAL
+96,Reconciling Multiple Findings,88|89,EVAL
+97,Comparing Scientific Theories,27|84,EVAL
+98,Theory Integration,84|96|97,EVAL
+99,Scientific Synthesis,96|98,EVAL
+100,Complementary Results,96,EVAL
+101,Competing Hypotheses,36|97,EVAL
+102,Best Explanation,99|101,EVAL
+103,Occam's Razor,102,EVAL
+104,Scientific Controversy,93|101,EVAL
+105,Theory Refinement,94|98,EVAL
+106,Visual Communication of Science,14|20,EXPRESS
+107,Creating Graphs,33|106,EXPRESS
+108,Creating Tables,34|106,EXPRESS
+109,Creating Diagrams,34|106,EXPRESS
+110,Chart Types,33|107,EXPRESS
+111,Numerical Expression,15|20,EXPRESS
+112,Mathematical Notation,111,EXPRESS
+113,Scientific Notation,112,EXPRESS
+114,Units and Conversions,51|113,EXPRESS
+115,Verbal Scientific Communication,20|21,EXPRESS
+116,Scientific Writing,115,EXPRESS
+117,Technical Writing,116,EXPRESS
+118,Data Presentation,106|111,EXPRESS
+119,Results Reporting,116|118,EXPRESS
+120,Information Translation,106|111|115,EXPRESS
+121,Scientific Theory Definition,27,THEORY
+122,Laws vs Theories,121,THEORY
+123,Theory Application,121|122,THEORY
+124,Established Scientific Models,86|121,THEORY
+125,Conceptual Models,86|124,THEORY
+126,Mathematical Models,86|124,THEORY
+127,Physical Models,86|124,THEORY
+128,Model Limitations,86|124,THEORY
+129,Theory-Based Predictions,67|123,THEORY
+130,Formula Application,123|126,THEORY
+131,Equation Manipulation,112|130,THEORY
+132,Problem Solving with Formulas,130|131,THEORY
+133,Stoichiometry,132,THEORY
+134,Conservation Laws,122|123,THEORY
+135,Thermodynamic Principles,122|134,THEORY
+136,Newton's Laws,122|134,THEORY
+137,Genetic Principles,122,THEORY
+138,Evolutionary Theory,121|137,THEORY
+139,Atomic Theory,121,THEORY
+140,Cell Theory,121,THEORY
+141,Descriptive Statistics,64|79,STATS
+142,Mean (Average),141,STATS
+143,Median,141,STATS
+144,Mode,141,STATS
+145,Range,141,STATS
+146,Standard Deviation,141|145,STATS
+147,Variance,141|146,STATS
+148,Data Distribution,141,STATS
+149,Normal Distribution,148,STATS
+150,Skewed Distribution,148,STATS
+151,Counting Principles,15,STATS
+152,Permutations,151,STATS
+153,Combinations,151|152,STATS
+154,Probability Basics,15,STATS
+155,Simple Probability,154,STATS
+156,Compound Probability,154|155,STATS
+157,Independent Events,154|156,STATS
+158,Dependent Events,154|156,STATS
+159,Punnett Squares,137|155,LIFE
+160,Genetic Probability,137|159,LIFE
+161,Human Body Systems,5,LIFE
+162,Muscular System,161,LIFE
+163,Endocrine System,161,LIFE
+164,Nervous System,161,LIFE
+165,System Integration,161|162|163|164,LIFE
+166,Homeostasis,161|165,LIFE
+167,Feedback Mechanisms,166,LIFE
+168,External Environment Effects,166|167,LIFE
+169,Nutrition and Nutrients,161,LIFE
+170,Disease Transmission,161,LIFE
+171,Pathogens,170,LIFE
+172,Disease Prevention,170|171,LIFE
+173,Photosynthesis,134,LIFE
+174,Cellular Respiration,134|173,LIFE
+175,Fermentation,174,LIFE
+176,Energy Flow in Ecosystems,134|173,LIFE
+177,Food Webs and Chains,176,LIFE
+178,Producer-Consumer Relationships,177,LIFE
+179,Carrying Capacity,178,LIFE
+180,Ecosystem Disruption,176|179,LIFE
+181,Cell Theory,140,LIFE
+182,Cell Structure and Function,140|181,LIFE
+183,Cellular Organization,181|182,LIFE
+184,Mitosis,182,LIFE
+185,Meiosis,182|184,LIFE
+186,DNA and Inheritance,137|182,LIFE
+187,Chromosomes,185|186,LIFE
+188,Genotypes and Phenotypes,137|186,LIFE
+189,Alleles,188,LIFE
+190,Mutations,186|189,LIFE
+191,Natural Selection,138,LIFE
+192,Artificial Selection,191,LIFE
+193,Adaptation,191,LIFE
+194,Speciation,191|193,LIFE
+195,Common Ancestry,138|194,LIFE
+196,Cladograms,195,LIFE
+197,Evolution Evidence,138|195,LIFE
+198,Variation in Traits,138|189,LIFE
+199,Differential Survival,191|198,LIFE
+200,Selection Pressure,191|199,LIFE

@@ -1,0 +1,1416 @@
+{
+  "metadata": {
+    "title": "Learning Graph",
+    "description": "Learning graph with 200 concepts generated from CSV",
+    "creator": "CSV to JSON Converter",
+    "date": "2026-01-25",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundation Concepts",
+      "color": "red",
+      "font": {
+        "color": "white"
+      }
+    },
+    "COMP": {
+      "classifierName": "Comprehension",
+      "color": "blue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "DESIGN": {
+      "classifierName": "Investigation Design",
+      "color": "purple",
+      "font": {
+        "color": "white"
+      }
+    },
+    "REASON": {
+      "classifierName": "Reasoning from Data",
+      "color": "green",
+      "font": {
+        "color": "white"
+      }
+    },
+    "EVAL": {
+      "classifierName": "Evaluating Conclusions",
+      "color": "orange",
+      "font": {
+        "color": "black"
+      }
+    },
+    "THEORY": {
+      "classifierName": "Scientific Theories",
+      "color": "darkblue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "EXPRESS": {
+      "classifierName": "Expression of Information",
+      "color": "teal",
+      "font": {
+        "color": "white"
+      }
+    },
+    "STATS": {
+      "classifierName": "Probability & Statistics",
+      "color": "brown",
+      "font": {
+        "color": "white"
+      }
+    },
+    "LIFE": {
+      "classifierName": "Life Science",
+      "color": "darkgreen",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Scientific Reasoning",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Assessment Targets",
+      "group": "FOUND"
+    },
+    {
+      "id": 3,
+      "label": "Career and College Readiness Standards",
+      "group": "FOUND"
+    },
+    {
+      "id": 4,
+      "label": "Science Practices",
+      "group": "FOUND"
+    },
+    {
+      "id": 5,
+      "label": "Content Topics",
+      "group": "FOUND"
+    },
+    {
+      "id": 6,
+      "label": "Depth of Knowledge (DOK)",
+      "group": "FOUND"
+    },
+    {
+      "id": 7,
+      "label": "Test Item Alignment",
+      "group": "FOUND"
+    },
+    {
+      "id": 8,
+      "label": "Scientific Method",
+      "group": "FOUND"
+    },
+    {
+      "id": 9,
+      "label": "Evidence-Based Reasoning",
+      "group": "FOUND"
+    },
+    {
+      "id": 10,
+      "label": "Data Interpretation",
+      "group": "FOUND"
+    },
+    {
+      "id": 11,
+      "label": "Scientific Literacy",
+      "group": "FOUND"
+    },
+    {
+      "id": 12,
+      "label": "Textual Scientific Presentations",
+      "group": "COMP"
+    },
+    {
+      "id": 13,
+      "label": "Non-Textual Scientific Presentations",
+      "group": "COMP"
+    },
+    {
+      "id": 14,
+      "label": "Visual Data Representation",
+      "group": "COMP"
+    },
+    {
+      "id": 15,
+      "label": "Quantitative Reasoning",
+      "group": "FOUND"
+    },
+    {
+      "id": 16,
+      "label": "Qualitative Reasoning",
+      "group": "FOUND"
+    },
+    {
+      "id": 17,
+      "label": "Scientific Inquiry",
+      "group": "FOUND"
+    },
+    {
+      "id": 18,
+      "label": "Experimental Design",
+      "group": "DESIGN"
+    },
+    {
+      "id": 19,
+      "label": "Observational Studies",
+      "group": "DESIGN"
+    },
+    {
+      "id": 20,
+      "label": "Scientific Communication",
+      "group": "FOUND"
+    },
+    {
+      "id": 21,
+      "label": "Reading Scientific Text",
+      "group": "COMP"
+    },
+    {
+      "id": 22,
+      "label": "Central Ideas in Science",
+      "group": "COMP"
+    },
+    {
+      "id": 23,
+      "label": "Summaries of Scientific Findings",
+      "group": "COMP"
+    },
+    {
+      "id": 24,
+      "label": "Restatements of Research",
+      "group": "COMP"
+    },
+    {
+      "id": 25,
+      "label": "Scientific Comparisons",
+      "group": "COMP"
+    },
+    {
+      "id": 26,
+      "label": "Scientific Processes",
+      "group": "COMP"
+    },
+    {
+      "id": 27,
+      "label": "Scientific Theories Overview",
+      "group": "COMP"
+    },
+    {
+      "id": 28,
+      "label": "Scientific Trends",
+      "group": "COMP"
+    },
+    {
+      "id": 29,
+      "label": "Academic Vocabulary in Science",
+      "group": "COMP"
+    },
+    {
+      "id": 30,
+      "label": "Scientific Symbols",
+      "group": "COMP"
+    },
+    {
+      "id": 31,
+      "label": "Scientific Terms and Phrases",
+      "group": "COMP"
+    },
+    {
+      "id": 32,
+      "label": "Context Clues in Science",
+      "group": "COMP"
+    },
+    {
+      "id": 33,
+      "label": "Graphs and Charts",
+      "group": "COMP"
+    },
+    {
+      "id": 34,
+      "label": "Tables and Diagrams",
+      "group": "COMP"
+    },
+    {
+      "id": 35,
+      "label": "Data Visualization",
+      "group": "COMP"
+    },
+    {
+      "id": 36,
+      "label": "Hypothesis Formation",
+      "group": "DESIGN"
+    },
+    {
+      "id": 37,
+      "label": "Hypothesis Refinement",
+      "group": "DESIGN"
+    },
+    {
+      "id": 38,
+      "label": "Independent Variables",
+      "group": "DESIGN"
+    },
+    {
+      "id": 39,
+      "label": "Dependent Variables",
+      "group": "DESIGN"
+    },
+    {
+      "id": 40,
+      "label": "Controlled Variables",
+      "group": "DESIGN"
+    },
+    {
+      "id": 41,
+      "label": "Sources of Experimental Error",
+      "group": "DESIGN"
+    },
+    {
+      "id": 42,
+      "label": "Systematic Error",
+      "group": "DESIGN"
+    },
+    {
+      "id": 43,
+      "label": "Random Error",
+      "group": "DESIGN"
+    },
+    {
+      "id": 44,
+      "label": "Error Reduction Strategies",
+      "group": "DESIGN"
+    },
+    {
+      "id": 45,
+      "label": "Experimental Controls",
+      "group": "DESIGN"
+    },
+    {
+      "id": 46,
+      "label": "Sample Size",
+      "group": "DESIGN"
+    },
+    {
+      "id": 47,
+      "label": "Replication in Experiments",
+      "group": "DESIGN"
+    },
+    {
+      "id": 48,
+      "label": "Experimental Procedures",
+      "group": "DESIGN"
+    },
+    {
+      "id": 49,
+      "label": "Scientific Investigation Steps",
+      "group": "DESIGN"
+    },
+    {
+      "id": 50,
+      "label": "Measurement Tools",
+      "group": "DESIGN"
+    },
+    {
+      "id": 51,
+      "label": "Units of Measurement",
+      "group": "DESIGN"
+    },
+    {
+      "id": 52,
+      "label": "Precision and Accuracy",
+      "group": "DESIGN"
+    },
+    {
+      "id": 53,
+      "label": "Data Collection Methods",
+      "group": "DESIGN"
+    },
+    {
+      "id": 54,
+      "label": "Experimental Design Strengths",
+      "group": "DESIGN"
+    },
+    {
+      "id": 55,
+      "label": "Experimental Design Weaknesses",
+      "group": "DESIGN"
+    },
+    {
+      "id": 56,
+      "label": "Comparing Experimental Designs",
+      "group": "DESIGN"
+    },
+    {
+      "id": 57,
+      "label": "Observational Study Design",
+      "group": "DESIGN"
+    },
+    {
+      "id": 58,
+      "label": "Cause and Effect Relationships",
+      "group": "DESIGN"
+    },
+    {
+      "id": 59,
+      "label": "Correlation vs Causation",
+      "group": "DESIGN"
+    },
+    {
+      "id": 60,
+      "label": "Confounding Variables",
+      "group": "DESIGN"
+    },
+    {
+      "id": 61,
+      "label": "Evidence-Based Conclusions",
+      "group": "REASON"
+    },
+    {
+      "id": 62,
+      "label": "Citing Textual Evidence",
+      "group": "REASON"
+    },
+    {
+      "id": 63,
+      "label": "Supporting Findings with Data",
+      "group": "REASON"
+    },
+    {
+      "id": 64,
+      "label": "Numerical Data Analysis",
+      "group": "REASON"
+    },
+    {
+      "id": 65,
+      "label": "Data-Driven Reasoning",
+      "group": "REASON"
+    },
+    {
+      "id": 66,
+      "label": "Logical Conclusions",
+      "group": "REASON"
+    },
+    {
+      "id": 67,
+      "label": "Scientific Predictions",
+      "group": "REASON"
+    },
+    {
+      "id": 68,
+      "label": "Trend Analysis",
+      "group": "REASON"
+    },
+    {
+      "id": 69,
+      "label": "Trend Extrapolation",
+      "group": "REASON"
+    },
+    {
+      "id": 70,
+      "label": "Variable Relationships",
+      "group": "REASON"
+    },
+    {
+      "id": 71,
+      "label": "Direct Relationships",
+      "group": "REASON"
+    },
+    {
+      "id": 72,
+      "label": "Inverse Relationships",
+      "group": "REASON"
+    },
+    {
+      "id": 73,
+      "label": "Sampling Techniques",
+      "group": "STATS"
+    },
+    {
+      "id": 74,
+      "label": "Random Sampling",
+      "group": "STATS"
+    },
+    {
+      "id": 75,
+      "label": "Systematic Sampling",
+      "group": "STATS"
+    },
+    {
+      "id": 76,
+      "label": "Representative Samples",
+      "group": "STATS"
+    },
+    {
+      "id": 77,
+      "label": "Sample Bias",
+      "group": "STATS"
+    },
+    {
+      "id": 78,
+      "label": "Population vs Sample",
+      "group": "STATS"
+    },
+    {
+      "id": 79,
+      "label": "Statistical Inference",
+      "group": "STATS"
+    },
+    {
+      "id": 80,
+      "label": "Sampling Strategies",
+      "group": "STATS"
+    },
+    {
+      "id": 81,
+      "label": "Evaluating Scientific Claims",
+      "group": "EVAL"
+    },
+    {
+      "id": 82,
+      "label": "Evidence Supporting Conclusions",
+      "group": "EVAL"
+    },
+    {
+      "id": 83,
+      "label": "Evidence Challenging Conclusions",
+      "group": "EVAL"
+    },
+    {
+      "id": 84,
+      "label": "Theory Evaluation",
+      "group": "EVAL"
+    },
+    {
+      "id": 85,
+      "label": "Hypothesis Testing",
+      "group": "EVAL"
+    },
+    {
+      "id": 86,
+      "label": "Scientific Models",
+      "group": "THEORY"
+    },
+    {
+      "id": 87,
+      "label": "Model Validation",
+      "group": "EVAL"
+    },
+    {
+      "id": 88,
+      "label": "Conflicting Evidence",
+      "group": "EVAL"
+    },
+    {
+      "id": 89,
+      "label": "Contradictory Results",
+      "group": "EVAL"
+    },
+    {
+      "id": 90,
+      "label": "Data Consistency",
+      "group": "EVAL"
+    },
+    {
+      "id": 91,
+      "label": "Reproducibility",
+      "group": "EVAL"
+    },
+    {
+      "id": 92,
+      "label": "Peer Review Concepts",
+      "group": "EVAL"
+    },
+    {
+      "id": 93,
+      "label": "Scientific Consensus",
+      "group": "EVAL"
+    },
+    {
+      "id": 94,
+      "label": "Theory Modification",
+      "group": "EVAL"
+    },
+    {
+      "id": 95,
+      "label": "Paradigm Shifts",
+      "group": "EVAL"
+    },
+    {
+      "id": 96,
+      "label": "Reconciling Multiple Findings",
+      "group": "EVAL"
+    },
+    {
+      "id": 97,
+      "label": "Comparing Scientific Theories",
+      "group": "EVAL"
+    },
+    {
+      "id": 98,
+      "label": "Theory Integration",
+      "group": "EVAL"
+    },
+    {
+      "id": 99,
+      "label": "Scientific Synthesis",
+      "group": "EVAL"
+    },
+    {
+      "id": 100,
+      "label": "Complementary Results",
+      "group": "EVAL"
+    },
+    {
+      "id": 101,
+      "label": "Competing Hypotheses",
+      "group": "EVAL"
+    },
+    {
+      "id": 102,
+      "label": "Best Explanation",
+      "group": "EVAL"
+    },
+    {
+      "id": 103,
+      "label": "Occam's Razor",
+      "group": "EVAL"
+    },
+    {
+      "id": 104,
+      "label": "Scientific Controversy",
+      "group": "EVAL"
+    },
+    {
+      "id": 105,
+      "label": "Theory Refinement",
+      "group": "EVAL"
+    },
+    {
+      "id": 106,
+      "label": "Visual Communication of Science",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 107,
+      "label": "Creating Graphs",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 108,
+      "label": "Creating Tables",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 109,
+      "label": "Creating Diagrams",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 110,
+      "label": "Chart Types",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 111,
+      "label": "Numerical Expression",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 112,
+      "label": "Mathematical Notation",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 113,
+      "label": "Scientific Notation",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 114,
+      "label": "Units and Conversions",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 115,
+      "label": "Verbal Scientific Communication",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 116,
+      "label": "Scientific Writing",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 117,
+      "label": "Technical Writing",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 118,
+      "label": "Data Presentation",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 119,
+      "label": "Results Reporting",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 120,
+      "label": "Information Translation",
+      "group": "EXPRESS"
+    },
+    {
+      "id": 121,
+      "label": "Scientific Theory Definition",
+      "group": "THEORY"
+    },
+    {
+      "id": 122,
+      "label": "Laws vs Theories",
+      "group": "THEORY"
+    },
+    {
+      "id": 123,
+      "label": "Theory Application",
+      "group": "THEORY"
+    },
+    {
+      "id": 124,
+      "label": "Established Scientific Models",
+      "group": "THEORY"
+    },
+    {
+      "id": 125,
+      "label": "Conceptual Models",
+      "group": "THEORY"
+    },
+    {
+      "id": 126,
+      "label": "Mathematical Models",
+      "group": "THEORY"
+    },
+    {
+      "id": 127,
+      "label": "Physical Models",
+      "group": "THEORY"
+    },
+    {
+      "id": 128,
+      "label": "Model Limitations",
+      "group": "THEORY"
+    },
+    {
+      "id": 129,
+      "label": "Theory-Based Predictions",
+      "group": "THEORY"
+    },
+    {
+      "id": 130,
+      "label": "Formula Application",
+      "group": "THEORY"
+    },
+    {
+      "id": 131,
+      "label": "Equation Manipulation",
+      "group": "THEORY"
+    },
+    {
+      "id": 132,
+      "label": "Problem Solving with Formulas",
+      "group": "THEORY"
+    },
+    {
+      "id": 133,
+      "label": "Stoichiometry",
+      "group": "THEORY"
+    },
+    {
+      "id": 134,
+      "label": "Conservation Laws",
+      "group": "THEORY"
+    },
+    {
+      "id": 135,
+      "label": "Thermodynamic Principles",
+      "group": "THEORY"
+    },
+    {
+      "id": 136,
+      "label": "Newton's Laws",
+      "group": "THEORY"
+    },
+    {
+      "id": 137,
+      "label": "Genetic Principles",
+      "group": "THEORY"
+    },
+    {
+      "id": 138,
+      "label": "Evolutionary Theory",
+      "group": "THEORY"
+    },
+    {
+      "id": 139,
+      "label": "Atomic Theory",
+      "group": "THEORY"
+    },
+    {
+      "id": 140,
+      "label": "Cell Theory",
+      "group": "THEORY"
+    },
+    {
+      "id": 141,
+      "label": "Descriptive Statistics",
+      "group": "STATS"
+    },
+    {
+      "id": 142,
+      "label": "Mean (Average)",
+      "group": "STATS"
+    },
+    {
+      "id": 143,
+      "label": "Median",
+      "group": "STATS"
+    },
+    {
+      "id": 144,
+      "label": "Mode",
+      "group": "STATS"
+    },
+    {
+      "id": 145,
+      "label": "Range",
+      "group": "STATS"
+    },
+    {
+      "id": 146,
+      "label": "Standard Deviation",
+      "group": "STATS"
+    },
+    {
+      "id": 147,
+      "label": "Variance",
+      "group": "STATS"
+    },
+    {
+      "id": 148,
+      "label": "Data Distribution",
+      "group": "STATS"
+    },
+    {
+      "id": 149,
+      "label": "Normal Distribution",
+      "group": "STATS"
+    },
+    {
+      "id": 150,
+      "label": "Skewed Distribution",
+      "group": "STATS"
+    },
+    {
+      "id": 151,
+      "label": "Counting Principles",
+      "group": "STATS"
+    },
+    {
+      "id": 152,
+      "label": "Permutations",
+      "group": "STATS"
+    },
+    {
+      "id": 153,
+      "label": "Combinations",
+      "group": "STATS"
+    },
+    {
+      "id": 154,
+      "label": "Probability Basics",
+      "group": "STATS"
+    },
+    {
+      "id": 155,
+      "label": "Simple Probability",
+      "group": "STATS"
+    },
+    {
+      "id": 156,
+      "label": "Compound Probability",
+      "group": "STATS"
+    },
+    {
+      "id": 157,
+      "label": "Independent Events",
+      "group": "STATS"
+    },
+    {
+      "id": 158,
+      "label": "Dependent Events",
+      "group": "STATS"
+    },
+    {
+      "id": 159,
+      "label": "Punnett Squares",
+      "group": "LIFE"
+    },
+    {
+      "id": 160,
+      "label": "Genetic Probability",
+      "group": "LIFE"
+    },
+    {
+      "id": 161,
+      "label": "Human Body Systems",
+      "group": "LIFE"
+    },
+    {
+      "id": 162,
+      "label": "Muscular System",
+      "group": "LIFE"
+    },
+    {
+      "id": 163,
+      "label": "Endocrine System",
+      "group": "LIFE"
+    },
+    {
+      "id": 164,
+      "label": "Nervous System",
+      "group": "LIFE"
+    },
+    {
+      "id": 165,
+      "label": "System Integration",
+      "group": "LIFE"
+    },
+    {
+      "id": 166,
+      "label": "Homeostasis",
+      "group": "LIFE"
+    },
+    {
+      "id": 167,
+      "label": "Feedback Mechanisms",
+      "group": "LIFE"
+    },
+    {
+      "id": 168,
+      "label": "External Environment Effects",
+      "group": "LIFE"
+    },
+    {
+      "id": 169,
+      "label": "Nutrition and Nutrients",
+      "group": "LIFE"
+    },
+    {
+      "id": 170,
+      "label": "Disease Transmission",
+      "group": "LIFE"
+    },
+    {
+      "id": 171,
+      "label": "Pathogens",
+      "group": "LIFE"
+    },
+    {
+      "id": 172,
+      "label": "Disease Prevention",
+      "group": "LIFE"
+    },
+    {
+      "id": 173,
+      "label": "Photosynthesis",
+      "group": "LIFE"
+    },
+    {
+      "id": 174,
+      "label": "Cellular Respiration",
+      "group": "LIFE"
+    },
+    {
+      "id": 175,
+      "label": "Fermentation",
+      "group": "LIFE"
+    },
+    {
+      "id": 176,
+      "label": "Energy Flow in Ecosystems",
+      "group": "LIFE"
+    },
+    {
+      "id": 177,
+      "label": "Food Webs and Chains",
+      "group": "LIFE"
+    },
+    {
+      "id": 178,
+      "label": "Producer-Consumer Relationships",
+      "group": "LIFE"
+    },
+    {
+      "id": 179,
+      "label": "Carrying Capacity",
+      "group": "LIFE"
+    },
+    {
+      "id": 180,
+      "label": "Ecosystem Disruption",
+      "group": "LIFE"
+    },
+    {
+      "id": 181,
+      "label": "Cell Theory",
+      "group": "LIFE"
+    },
+    {
+      "id": 182,
+      "label": "Cell Structure and Function",
+      "group": "LIFE"
+    },
+    {
+      "id": 183,
+      "label": "Cellular Organization",
+      "group": "LIFE"
+    },
+    {
+      "id": 184,
+      "label": "Mitosis",
+      "group": "LIFE"
+    },
+    {
+      "id": 185,
+      "label": "Meiosis",
+      "group": "LIFE"
+    },
+    {
+      "id": 186,
+      "label": "DNA and Inheritance",
+      "group": "LIFE"
+    },
+    {
+      "id": 187,
+      "label": "Chromosomes",
+      "group": "LIFE"
+    },
+    {
+      "id": 188,
+      "label": "Genotypes and Phenotypes",
+      "group": "LIFE"
+    },
+    {
+      "id": 189,
+      "label": "Alleles",
+      "group": "LIFE"
+    },
+    {
+      "id": 190,
+      "label": "Mutations",
+      "group": "LIFE"
+    },
+    {
+      "id": 191,
+      "label": "Natural Selection",
+      "group": "LIFE"
+    },
+    {
+      "id": 192,
+      "label": "Artificial Selection",
+      "group": "LIFE"
+    },
+    {
+      "id": 193,
+      "label": "Adaptation",
+      "group": "LIFE"
+    },
+    {
+      "id": 194,
+      "label": "Speciation",
+      "group": "LIFE"
+    },
+    {
+      "id": 195,
+      "label": "Common Ancestry",
+      "group": "LIFE"
+    },
+    {
+      "id": 196,
+      "label": "Cladograms",
+      "group": "LIFE"
+    },
+    {
+      "id": 197,
+      "label": "Evolution Evidence",
+      "group": "LIFE"
+    },
+    {
+      "id": 198,
+      "label": "Variation in Traits",
+      "group": "LIFE"
+    },
+    {
+      "id": 199,
+      "label": "Differential Survival",
+      "group": "LIFE"
+    },
+    {
+      "id": 200,
+      "label": "Selection Pressure",
+      "group": "LIFE"
+    }
+  ],
+  "edges": [
+    {"from": 2, "to": 1},
+    {"from": 3, "to": 1},
+    {"from": 4, "to": 1},
+    {"from": 4, "to": 2},
+    {"from": 5, "to": 1},
+    {"from": 5, "to": 2},
+    {"from": 6, "to": 1},
+    {"from": 6, "to": 4},
+    {"from": 7, "to": 4},
+    {"from": 7, "to": 5},
+    {"from": 7, "to": 6},
+    {"from": 8, "to": 1},
+    {"from": 9, "to": 1},
+    {"from": 9, "to": 8},
+    {"from": 10, "to": 1},
+    {"from": 10, "to": 9},
+    {"from": 11, "to": 1},
+    {"from": 11, "to": 8},
+    {"from": 12, "to": 11},
+    {"from": 13, "to": 11},
+    {"from": 14, "to": 10},
+    {"from": 14, "to": 13},
+    {"from": 15, "to": 1},
+    {"from": 15, "to": 10},
+    {"from": 16, "to": 1},
+    {"from": 16, "to": 10},
+    {"from": 17, "to": 8},
+    {"from": 17, "to": 9},
+    {"from": 18, "to": 8},
+    {"from": 18, "to": 17},
+    {"from": 19, "to": 8},
+    {"from": 19, "to": 17},
+    {"from": 20, "to": 11},
+    {"from": 21, "to": 12},
+    {"from": 22, "to": 21},
+    {"from": 23, "to": 21},
+    {"from": 23, "to": 22},
+    {"from": 24, "to": 21},
+    {"from": 24, "to": 23},
+    {"from": 25, "to": 21},
+    {"from": 26, "to": 8},
+    {"from": 26, "to": 21},
+    {"from": 27, "to": 21},
+    {"from": 28, "to": 21},
+    {"from": 28, "to": 27},
+    {"from": 29, "to": 21},
+    {"from": 30, "to": 29},
+    {"from": 31, "to": 29},
+    {"from": 32, "to": 21},
+    {"from": 32, "to": 31},
+    {"from": 33, "to": 14},
+    {"from": 34, "to": 14},
+    {"from": 35, "to": 14},
+    {"from": 35, "to": 33},
+    {"from": 35, "to": 34},
+    {"from": 36, "to": 17},
+    {"from": 37, "to": 36},
+    {"from": 38, "to": 18},
+    {"from": 38, "to": 36},
+    {"from": 39, "to": 18},
+    {"from": 39, "to": 36},
+    {"from": 40, "to": 18},
+    {"from": 40, "to": 38},
+    {"from": 40, "to": 39},
+    {"from": 41, "to": 18},
+    {"from": 42, "to": 41},
+    {"from": 43, "to": 41},
+    {"from": 44, "to": 41},
+    {"from": 44, "to": 42},
+    {"from": 44, "to": 43},
+    {"from": 45, "to": 18},
+    {"from": 45, "to": 40},
+    {"from": 46, "to": 18},
+    {"from": 46, "to": 19},
+    {"from": 47, "to": 18},
+    {"from": 47, "to": 46},
+    {"from": 48, "to": 18},
+    {"from": 49, "to": 17},
+    {"from": 49, "to": 48},
+    {"from": 50, "to": 18},
+    {"from": 50, "to": 48},
+    {"from": 51, "to": 50},
+    {"from": 52, "to": 50},
+    {"from": 52, "to": 51},
+    {"from": 53, "to": 18},
+    {"from": 53, "to": 48},
+    {"from": 54, "to": 18},
+    {"from": 54, "to": 48},
+    {"from": 55, "to": 18},
+    {"from": 55, "to": 48},
+    {"from": 56, "to": 54},
+    {"from": 56, "to": 55},
+    {"from": 57, "to": 19},
+    {"from": 58, "to": 18},
+    {"from": 58, "to": 38},
+    {"from": 58, "to": 39},
+    {"from": 59, "to": 58},
+    {"from": 60, "to": 40},
+    {"from": 60, "to": 59},
+    {"from": 61, "to": 9},
+    {"from": 61, "to": 10},
+    {"from": 62, "to": 21},
+    {"from": 62, "to": 61},
+    {"from": 63, "to": 10},
+    {"from": 63, "to": 61},
+    {"from": 64, "to": 15},
+    {"from": 64, "to": 33},
+    {"from": 65, "to": 10},
+    {"from": 65, "to": 64},
+    {"from": 66, "to": 61},
+    {"from": 66, "to": 65},
+    {"from": 67, "to": 61},
+    {"from": 67, "to": 66},
+    {"from": 68, "to": 28},
+    {"from": 68, "to": 33},
+    {"from": 69, "to": 67},
+    {"from": 69, "to": 68},
+    {"from": 70, "to": 38},
+    {"from": 70, "to": 39},
+    {"from": 71, "to": 70},
+    {"from": 72, "to": 70},
+    {"from": 73, "to": 19},
+    {"from": 73, "to": 46},
+    {"from": 74, "to": 73},
+    {"from": 75, "to": 73},
+    {"from": 76, "to": 73},
+    {"from": 76, "to": 74},
+    {"from": 76, "to": 75},
+    {"from": 77, "to": 73},
+    {"from": 77, "to": 76},
+    {"from": 78, "to": 73},
+    {"from": 78, "to": 76},
+    {"from": 79, "to": 78},
+    {"from": 80, "to": 73},
+    {"from": 80, "to": 76},
+    {"from": 80, "to": 79},
+    {"from": 81, "to": 61},
+    {"from": 81, "to": 66},
+    {"from": 82, "to": 61},
+    {"from": 82, "to": 81},
+    {"from": 83, "to": 61},
+    {"from": 83, "to": 81},
+    {"from": 84, "to": 27},
+    {"from": 84, "to": 81},
+    {"from": 85, "to": 36},
+    {"from": 85, "to": 81},
+    {"from": 86, "to": 27},
+    {"from": 87, "to": 86},
+    {"from": 87, "to": 81},
+    {"from": 88, "to": 82},
+    {"from": 88, "to": 83},
+    {"from": 89, "to": 88},
+    {"from": 90, "to": 64},
+    {"from": 90, "to": 88},
+    {"from": 91, "to": 47},
+    {"from": 91, "to": 90},
+    {"from": 92, "to": 81},
+    {"from": 92, "to": 91},
+    {"from": 93, "to": 84},
+    {"from": 93, "to": 92},
+    {"from": 94, "to": 84},
+    {"from": 94, "to": 93},
+    {"from": 95, "to": 94},
+    {"from": 96, "to": 88},
+    {"from": 96, "to": 89},
+    {"from": 97, "to": 27},
+    {"from": 97, "to": 84},
+    {"from": 98, "to": 84},
+    {"from": 98, "to": 96},
+    {"from": 98, "to": 97},
+    {"from": 99, "to": 96},
+    {"from": 99, "to": 98},
+    {"from": 100, "to": 96},
+    {"from": 101, "to": 36},
+    {"from": 101, "to": 97},
+    {"from": 102, "to": 99},
+    {"from": 102, "to": 101},
+    {"from": 103, "to": 102},
+    {"from": 104, "to": 93},
+    {"from": 104, "to": 101},
+    {"from": 105, "to": 94},
+    {"from": 105, "to": 98},
+    {"from": 106, "to": 14},
+    {"from": 106, "to": 20},
+    {"from": 107, "to": 33},
+    {"from": 107, "to": 106},
+    {"from": 108, "to": 34},
+    {"from": 108, "to": 106},
+    {"from": 109, "to": 34},
+    {"from": 109, "to": 106},
+    {"from": 110, "to": 33},
+    {"from": 110, "to": 107},
+    {"from": 111, "to": 15},
+    {"from": 111, "to": 20},
+    {"from": 112, "to": 111},
+    {"from": 113, "to": 112},
+    {"from": 114, "to": 51},
+    {"from": 114, "to": 113},
+    {"from": 115, "to": 20},
+    {"from": 115, "to": 21},
+    {"from": 116, "to": 115},
+    {"from": 117, "to": 116},
+    {"from": 118, "to": 106},
+    {"from": 118, "to": 111},
+    {"from": 119, "to": 116},
+    {"from": 119, "to": 118},
+    {"from": 120, "to": 106},
+    {"from": 120, "to": 111},
+    {"from": 120, "to": 115},
+    {"from": 121, "to": 27},
+    {"from": 122, "to": 121},
+    {"from": 123, "to": 121},
+    {"from": 123, "to": 122},
+    {"from": 124, "to": 86},
+    {"from": 124, "to": 121},
+    {"from": 125, "to": 86},
+    {"from": 125, "to": 124},
+    {"from": 126, "to": 86},
+    {"from": 126, "to": 124},
+    {"from": 127, "to": 86},
+    {"from": 127, "to": 124},
+    {"from": 128, "to": 86},
+    {"from": 128, "to": 124},
+    {"from": 129, "to": 67},
+    {"from": 129, "to": 123},
+    {"from": 130, "to": 123},
+    {"from": 130, "to": 126},
+    {"from": 131, "to": 112},
+    {"from": 131, "to": 130},
+    {"from": 132, "to": 130},
+    {"from": 132, "to": 131},
+    {"from": 133, "to": 132},
+    {"from": 134, "to": 122},
+    {"from": 134, "to": 123},
+    {"from": 135, "to": 122},
+    {"from": 135, "to": 134},
+    {"from": 136, "to": 122},
+    {"from": 136, "to": 134},
+    {"from": 137, "to": 122},
+    {"from": 138, "to": 121},
+    {"from": 138, "to": 137},
+    {"from": 139, "to": 121},
+    {"from": 140, "to": 121},
+    {"from": 141, "to": 64},
+    {"from": 141, "to": 79},
+    {"from": 142, "to": 141},
+    {"from": 143, "to": 141},
+    {"from": 144, "to": 141},
+    {"from": 145, "to": 141},
+    {"from": 146, "to": 141},
+    {"from": 146, "to": 145},
+    {"from": 147, "to": 141},
+    {"from": 147, "to": 146},
+    {"from": 148, "to": 141},
+    {"from": 149, "to": 148},
+    {"from": 150, "to": 148},
+    {"from": 151, "to": 15},
+    {"from": 152, "to": 151},
+    {"from": 153, "to": 151},
+    {"from": 153, "to": 152},
+    {"from": 154, "to": 15},
+    {"from": 155, "to": 154},
+    {"from": 156, "to": 154},
+    {"from": 156, "to": 155},
+    {"from": 157, "to": 154},
+    {"from": 157, "to": 156},
+    {"from": 158, "to": 154},
+    {"from": 158, "to": 156},
+    {"from": 159, "to": 137},
+    {"from": 159, "to": 155},
+    {"from": 160, "to": 137},
+    {"from": 160, "to": 159},
+    {"from": 161, "to": 5},
+    {"from": 162, "to": 161},
+    {"from": 163, "to": 161},
+    {"from": 164, "to": 161},
+    {"from": 165, "to": 161},
+    {"from": 165, "to": 162},
+    {"from": 165, "to": 163},
+    {"from": 165, "to": 164},
+    {"from": 166, "to": 161},
+    {"from": 166, "to": 165},
+    {"from": 167, "to": 166},
+    {"from": 168, "to": 166},
+    {"from": 168, "to": 167},
+    {"from": 169, "to": 161},
+    {"from": 170, "to": 161},
+    {"from": 171, "to": 170},
+    {"from": 172, "to": 170},
+    {"from": 172, "to": 171},
+    {"from": 173, "to": 134},
+    {"from": 174, "to": 134},
+    {"from": 174, "to": 173},
+    {"from": 175, "to": 174},
+    {"from": 176, "to": 134},
+    {"from": 176, "to": 173},
+    {"from": 177, "to": 176},
+    {"from": 178, "to": 177},
+    {"from": 179, "to": 178},
+    {"from": 180, "to": 176},
+    {"from": 180, "to": 179},
+    {"from": 181, "to": 140},
+    {"from": 182, "to": 140},
+    {"from": 182, "to": 181},
+    {"from": 183, "to": 181},
+    {"from": 183, "to": 182},
+    {"from": 184, "to": 182},
+    {"from": 185, "to": 182},
+    {"from": 185, "to": 184},
+    {"from": 186, "to": 137},
+    {"from": 186, "to": 182},
+    {"from": 187, "to": 185},
+    {"from": 187, "to": 186},
+    {"from": 188, "to": 137},
+    {"from": 188, "to": 186},
+    {"from": 189, "to": 188},
+    {"from": 190, "to": 186},
+    {"from": 190, "to": 189},
+    {"from": 191, "to": 138},
+    {"from": 192, "to": 191},
+    {"from": 193, "to": 191},
+    {"from": 194, "to": 191},
+    {"from": 194, "to": 193},
+    {"from": 195, "to": 138},
+    {"from": 195, "to": 194},
+    {"from": 196, "to": 195},
+    {"from": 197, "to": 138},
+    {"from": 197, "to": 195},
+    {"from": 198, "to": 138},
+    {"from": 198, "to": 189},
+    {"from": 199, "to": 191},
+    {"from": 199, "to": 198},
+    {"from": 200, "to": 191},
+    {"from": 200, "to": 199}
+  ]
+}
