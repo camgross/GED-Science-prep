@@ -1,58 +1,57 @@
 # GED Science Prep
 
-A comprehensive GED Science preparation resource covering all 200 assessment targets across Life Science, Physical Science, and Earth and Space Science.
+> **Is this README content saved to the new project folder `/GED-Science-prep`?**  
+> **Yes:** This is the main `README.md` located in `/GED-Science-prep/`, providing a comprehensive overview of the project.
 
 ## Overview
 
-This repository contains a complete 12-chapter GED Science curriculum designed to prepare adult learners for the GED Science Test. The content is structured around the eight Science Practices and three content domains specified in the GED Assessment Targets.
+This repository contains the complete GED Science Prep curriculum, organized into 12 chapters and aligned with the official GED Science Assessment Targets. Content addresses all 200 concepts across Life Science, Physical Science, and Earth & Space Science, and follows the eight required Science Practices.
 
 ## Course Structure
 
-- **12 Chapters** covering all 200 concepts
-- **Learning Graph** with concept dependencies and taxonomy
-- **Interactive MicroSims** for visual learning
-- **Assessment Guide** reference materials
+- **12 Chapters** systematically covering all 200 assessment targets
+- **Learning Graph** illustrating concept dependencies and taxonomy
+- **Interactive MicroSims** for hands-on, visual learning
+- **Assessment Guide** reference materials for educators and learners
 
 ## Content Domains
 
-- **Life Science (40%)** - Human body systems, energy flow, cellular organization, genetics, heredity, and evolution
-- **Physical Science (40%)** - Energy conservation, work and motion, chemical properties and reactions
-- **Earth and Space Science (20%)** - Earth systems, atmospheric and oceanic characteristics, cosmic structures
+- **Life Science (40%)**: Human body systems, energy flow, cellular organization, genetics, heredity, and evolution
+- **Physical Science (40%)**: Conservation of energy, work and motion, chemical properties and reactions
+- **Earth and Space Science (20%)**: Earth systems, atmospheric and oceanic processes, cosmic structures
 
 ## Science Practices
 
-The curriculum is organized around eight core Science Practices:
+The curriculum is organized around these eight Science Practices:
 
-1. **Comprehending Scientific Presentations** - Reading and interpreting scientific materials
-2. **Designing Scientific Investigations** - Hypothesis formation, experimental design, variables
-3. **Reasoning from Data** - Evidence-based conclusions, data analysis, predictions
-4. **Evaluating Scientific Claims** - Assessing evidence, theory evaluation, peer review
-5. **Expressing Scientific Information** - Visual, numerical, and verbal communication
-6. **Working with Scientific Models and Theories** - Theory application, formula use, model limitations
-7. **Using Probability and Statistics** - Descriptive statistics, sampling, probability
-8. **Integrating Content** - Connecting concepts across scientific disciplines
+1. **Comprehending Scientific Presentations**: Reading and interpreting scientific materials
+2. **Designing Scientific Investigations**: Hypothesis formation, experimental design, understanding variables
+3. **Reasoning from Data**: Evidence-based conclusions, data analysis, and predictions
+4. **Evaluating Scientific Claims**: Critically assessing evidence, theories, and peer-reviewed sources
+5. **Expressing Scientific Information**: Communicating visually, numerically, and verbally
+6. **Working with Scientific Models and Theories**: Applying theories and formulas, understanding model limitations
+7. **Using Probability and Statistics**: Descriptive statistics, sampling, and probability
+8. **Integrating Content**: Connecting and synthesizing concepts across scientific disciplines
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.8 or newer
 - Git
-- Basic familiarity with markdown
+- Basic familiarity with Markdown
 
 ### Install Dependencies
 
 ```bash
-pip install mkdocs
-pip install mkdocs-material
-pip install pymdown-extensions
+pip install mkdocs mkdocs-material pymdown-extensions
 ```
 
 ### Build and Serve Locally
 
 ```bash
 mkdocs serve
-# Opens at http://localhost:8000
+# Access the site at http://localhost:8000
 ```
 
 ### Deploy to GitHub Pages
@@ -66,7 +65,7 @@ mkdocs gh-deploy
 ```
 GED-Science-prep/
 ├── docs/
-│   ├── chapters/          # 12 GED Science chapters
+│   ├── chapters/          # 12 GED Science chapter directories
 │   │   ├── 01-scientific-reasoning-foundations/
 │   │   ├── 02-comprehending-scientific-materials/
 │   │   └── ...
@@ -90,4 +89,4 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial-Shar
 
 ## Contact
 
-For questions or feedback, please open an issue on GitHub.
+For questions or feedback, please open an issue in this repository.

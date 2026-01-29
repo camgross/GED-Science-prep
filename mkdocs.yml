@@ -34,6 +34,7 @@ nav:
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
 
   - MicroSims:
+    - Learning Graph Viewer: sims/graph-viewer/index.md
     - GED Science Assessment Framework: sims/ged-science-assessment-framework/index.md
     - Scientific Reasoning Process Flow: sims/scientific-reasoning-process-flow/index.md
     - Scientific Method Cycle: sims/scientific-method-cycle/index.md

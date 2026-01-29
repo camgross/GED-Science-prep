@@ -30,3 +30,5 @@ The learning graph helps you:
 ## Interactive Visualization
 
 The learning graph can be visualized using the graph viewer. Each concept is color-coded by its taxonomy category, and arrows show dependency relationships.
+
+[**Open Interactive Graph Viewer**](../sims/graph-viewer/) — search, filter by category, and explore the full 200-concept graph.
