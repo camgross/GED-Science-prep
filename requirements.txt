@@ -1,0 +1,4 @@
+# MkDocs and plugins for docs build (used by CI and optionally locally)
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0
+mkdocs-glightbox>=0.3.0
