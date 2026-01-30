@@ -1,8 +1,5 @@
 # GED Science Prep
 
-> **Is this README content saved to the new project folder `/GED-Science-prep`?**  
-> **Yes:** This is the main `README.md` located in `/GED-Science-prep/`, providing a comprehensive overview of the project.
-
 ## Overview
 
 This repository contains the complete GED Science Prep curriculum, organized into 12 chapters and aligned with the official GED Science Assessment Targets. Content addresses all 200 concepts across Life Science, Physical Science, and Earth & Space Science, and follows the eight required Science Practices.
@@ -37,28 +34,41 @@ The curriculum is organized around these eight Science Practices:
 
 ### Prerequisites
 
-- Python 3.8 or newer
-- Git
+- **Python 3.10 or newer** (for building and serving the docs locally)
+- **Git** — only needed if you plan to make changes (clone, branch, pull requests). For viewing or building only, you can download the repo as a ZIP.
 - Basic familiarity with Markdown
+
+### Get the code
+
+- **Clone (for contributors):**  
+  `git clone https://github.com/camgross/GED-Science-prep.git && cd GED-Science-prep`
+- **Download ZIP (view or build only):** From the repo → **Code** → **Download ZIP**, then unzip and `cd` into the folder.
 
 ### Install Dependencies
 
 ```bash
-pip install mkdocs mkdocs-material pymdown-extensions
+pip install -r requirements.txt
+```
+
+**Optional: use a virtual environment** (recommended if you're new to Python):
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
 ### Build and Serve Locally
 
 ```bash
 mkdocs serve
-# Access the site at http://localhost:8000
 ```
 
-### Deploy to GitHub Pages
+Then open **http://localhost:8000** in your browser.
 
-```bash
-mkdocs gh-deploy
-```
+### Deploy
+
+The site is deployed to **GitHub Pages** via GitHub Actions on every push to `main`. No local deploy step is required. See the [Actions](https://github.com/camgross/GED-Science-prep/actions) tab for build status.
 
 ## Repository Structure
 

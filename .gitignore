@@ -14,6 +14,11 @@ mcp-servers/**/venv/
 .claude/settings.local.json
 # Local Python virtualenv
 .venv/
+# Local logs (not for repo)
+logs/
+# Secret-scan artifacts (run locally; baseline/audit stay local)
+.secrets.baseline.json
+trufflehog.json
 # Python package metadata
 *.egg-info/
 __pycache__/
